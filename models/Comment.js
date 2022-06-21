@@ -1,7 +1,7 @@
 const { Schema, model, Types } = require('mongoose');
 const dateFormat = require('../utils/dateFormat');
 
-const ReplaySchema = new Schema(
+const ReplySchema = new Schema(
   {
     replyId: {
       type: Schema.Types.ObjectId,
