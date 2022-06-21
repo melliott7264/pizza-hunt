@@ -37,7 +37,7 @@ const CommentSchema = new Schema(
     createdAt: {
       type: Date,
       default: Date.now,
-      get: (creadtedAtVal) => dateFormat(createdAtVal),
+      get: (createdAtVal) => dateFormat(createdAtVal),
     },
     replies: [ReplySchema],
   },
